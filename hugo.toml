@@ -83,20 +83,20 @@ enableGitInfo = true      # Enable Git info for lastmod
 
 # Navigation Menu
 [menu]
-  [[menu.main]]
-    name = "Features"
-    weight = 1
-    [menu.main.params]
-      has_submenu = true
-      submenu = [
-        { name = "Feature 1", url = "/features/feature-1/" },
-        { name = "Feature 2", url = "/features/feature-2/" }
-      ]
-  [[menu.main]]
-    name = "Pricing"
-    url = "/pricing"
-    weight = 2
-  [[menu.main]]
-    name = "Blog"
-    url = "/blog"
-    weight = 3
+  #[[menu.main]]
+  #  name = "Features"
+  #  weight = 1
+  #  [menu.main.params]
+  #    has_submenu = true
+  #    submenu = [
+  #      { name = "Feature 1", url = "/features/feature-1/" },
+  #      { name = "Feature 2", url = "/features/feature-2/" }
+  #    ]
+  #[[menu.main]]
+  #  name = "Pricing"
+  #  url = "/pricing"
+  #  weight = 2
+  #[[menu.main]]
+  #  name = "Blog"
+  #  url = "/blog"
+  #  weight = 3
